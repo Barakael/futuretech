@@ -4,6 +4,9 @@ export const about = {
   intro: `${site.shortName} is a Tanzanian engineering company focused on telecommunications, ICT, power and security systems for enterprises, campuses, hospitality and public facilities. We supply, install and maintain solutions with high speed and precision.`,
   focus:
     'Our core work centres on security systems, vehicle tracking, power & backup, ECTS container tracking, software development and office automation—delivered with design, installation and after-sales support.',
+  motto: 'Innovating with speed and precision',
+  mottoBody:
+    'the standard you deserve, the quality you expect and the service you can rely.',
   vision:
     'To be a highly effective, fast-moving company providing Power, Telecommunications, ICT and Security solutions that help organisations improve operational efficiency.',
   mission:

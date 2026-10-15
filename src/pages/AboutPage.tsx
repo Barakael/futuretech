@@ -27,7 +27,18 @@ export function AboutPage() {
       </section>
 
       <section className="bg-paper py-14 sm:py-16">
-        <Container className="grid gap-8 md:grid-cols-2">
+        <Container className="grid items-stretch gap-6 lg:grid-cols-3 lg:gap-8">
+          <div className="rounded-2xl border border-green/30 bg-navy p-6 text-white sm:p-8">
+            <p className="font-display text-xs font-semibold uppercase tracking-[0.16em] text-green">
+              Motto
+            </p>
+            <h2 className="mt-3 font-display text-xl font-bold leading-snug text-white sm:text-2xl">
+              {about.motto}
+            </h2>
+            <p className="mt-3 text-sm leading-relaxed text-white/75 sm:text-base">
+              {about.mottoBody}
+            </p>
+          </div>
           <div className="rounded-2xl border border-navy/8 bg-white p-6 sm:p-8">
             <h2 className="font-display text-xl font-bold text-blue">Vision</h2>
             <p className="mt-3 text-navy/75 leading-relaxed">{about.vision}</p>
@@ -73,14 +84,7 @@ export function AboutPage() {
                 {site.registration.tin}
               </dd>
             </div>
-            <div className="rounded-xl border border-navy/8 bg-white p-5">
-              <dt className="font-display text-xs font-semibold uppercase tracking-[0.14em] text-green">
-                VRN
-              </dt>
-              <dd className="mt-2 font-display text-lg font-bold text-navy">
-                {site.registration.vrn}
-              </dd>
-            </div>
+            
             <div className="rounded-xl border border-navy/8 bg-white p-5 sm:col-span-2 lg:col-span-1">
               <dt className="font-display text-xs font-semibold uppercase tracking-[0.14em] text-green">
                 Office

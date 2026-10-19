@@ -16,7 +16,7 @@ export const site = {
     city: 'Dar es Salaam, Tanzania',
   },
   registration: {
-    tin: '114-690-775',
+    tin: '202-723-349',
     vrn: '40-012572-C',
     categories: [
       'Telecommunications, ICT and Security Systems',

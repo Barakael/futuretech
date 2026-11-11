@@ -29,7 +29,7 @@ export function AboutPage() {
       <section className="bg-paper py-14 sm:py-16">
         <Container className="grid items-stretch gap-6 lg:grid-cols-3 lg:gap-8">
           <div className="rounded-2xl border border-green/30 bg-navy p-6 text-white sm:p-8">
-            <p className="font-display text-xs font-semibold uppercase tracking-[0.16em] text-green">
+            <p className="font-display text-xs font-semibold uppercase tracking-[0.16em] text-white">
               Motto
             </p>
             <h2 className="mt-3 font-display text-xl font-bold leading-snug text-white sm:text-2xl">

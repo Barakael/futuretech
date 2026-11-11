@@ -124,16 +124,7 @@ export function Footer() {
               Contact
             </p>
             <ul className="mt-3 flex flex-col text-sm">
-              {site.phones.map((phone) => (
-                <li key={phone.href}>
-                  <a
-                    href={phone.href}
-                    className="inline-flex items-center py-1 font-medium leading-snug text-white/90 transition hover:text-green"
-                  >
-                    {phone.label}
-                  </a>
-                </li>
-              ))}
+             
               <li>
                 <a
                   href={`mailto:${site.email}`}
@@ -149,6 +140,16 @@ export function Footer() {
                 >
                   {site.domain}
                 </a>
+              </li>
+              <li className="mt-4 border-t border-white/10 pt-4">
+                <p className="font-display text-xs font-semibold uppercase tracking-[0.16em] text-white">
+                  Future Technologies
+                </p>
+                <p className="mt-2 text-sm font-medium leading-snug text-green">
+                  Innovating with speed
+                  <br />
+                  and precision
+                </p>
               </li>
             </ul>
           </div>

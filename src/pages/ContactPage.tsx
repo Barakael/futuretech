@@ -41,9 +41,7 @@ export function ContactPage() {
             <div className="rounded-2xl border border-navy/8 bg-white p-6 sm:p-8">
               <ContactDetails />
               <div className="mt-8 grid grid-cols-2 gap-3">
-                <Button href={site.phones[0].href} className="w-full">
-                  Call
-                </Button>
+             
                 <Button href={`mailto:${site.email}`} variant="secondary" className="w-full">
                   Email
                 </Button>

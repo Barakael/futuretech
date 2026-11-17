@@ -33,20 +33,7 @@ export function ContactDetails({
           {site.address.city}
         </p>
       </div>
-      <div>
-        <p className={cn('font-display text-xs font-semibold uppercase tracking-[0.16em]', label)}>
-          Call
-        </p>
-        <ul className={cn('mt-1 space-y-1', compact ? 'text-sm' : 'text-base')}>
-          {site.phones.map((phone) => (
-            <li key={phone.href}>
-              <a href={phone.href} className={cn('font-medium', link)}>
-                {phone.label}
-              </a>
-            </li>
-          ))}
-        </ul>
-      </div>
+     
       <div>
         <p className={cn('font-display text-xs font-semibold uppercase tracking-[0.16em]', label)}>
           Email
